@@ -7,6 +7,9 @@ body{
     font-family:"Outfit";
     font-weight:200;
 }
+hr{
+    border-color:#e0e0e0;
+}
 .container{
     /* height:100%; */
     background-color:hsl(30, 54%, 90%);
@@ -29,7 +32,7 @@ main{
     position: relative;
 }
 h1{
-    font-size:2.4rem;
+    font-size:240%; /*2.4rem*/
     font-family:'Young Serif';
     font-weight:100;
 }
@@ -58,7 +61,7 @@ p{
     border-radius: 3%;
 }
 .two>ul{
-    padding-left:22px;
+    padding-left:3.86%;
 }
 .two>ul>li{
     margin-bottom: 0.5rem;
@@ -69,7 +72,7 @@ p{
     color:hsl(14, 45%, 36%);
 }
 .three>ul{
-    padding-left:22px;
+    padding-left:3.475%;
 }
 .three>ul>li{
     margin-bottom:2%;
@@ -96,8 +99,7 @@ p{
     gap:37%;
     /* border:1px solid red; */
     flex-direction: row;
-    border-bottom:1px solid rgb(0, 0, 0)
-    ;
+    border-bottom:1px solid #e0e0e0;
 }
 .five > div > div:nth-of-type(1) {
     width:10%;
@@ -126,4 +128,62 @@ p{
     font-family:'Young Serif';
     font-weight:800;
     font-size:1rem;
+}
+/* mobile development */
+@media screen and (max-width:376px) {
+    .container{
+        width:100%;
+    }
+    main{
+        background-color: white;
+        width:100%;
+        padding:0;
+        border-radius: 25px;
+        position: relative;
+    }
+    section{
+        padding-left:9%;
+        padding-right:9%;
+    }
+    h1{
+        font-size:230%; /*2.4rem*/
+        font-family:'Young Serif';
+        font-weight:100;
+        margin-bottom:1%;
+    }
+    p{
+        font-size: 17px;
+        font-weight:300;
+        font-family:'Outfit';
+    }
+    .two{
+        margin: 0 8%;
+        height:11rem;
+    }
+    .two>ul{
+        padding-left:3.86%;
+        width:72.03%;
+    }
+    .three>ul{
+        padding-left:7%;
+    }
+    .five > div > div:nth-of-type(1) {
+        /* border:1px solid red; */
+        margin-left:10%; 
+    }
+    hr{
+        width:105%;
+        position:relative;
+        left:-2%;
+    }
+    .attribution{
+        position: absolute;
+        bottom:-4%;
+        /* background-color:green; */
+        left:10%;
+        font-family:'Young Serif';
+        font-weight:500;
+        font-size:0.8rem;
+    }
+    
 }
