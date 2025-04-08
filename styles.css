@@ -1,0 +1,86 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+body{
+    /* height:100vh; */
+    margin:0;
+    /* color:hsl(0, 0%, 100%) */
+}
+.container{
+    /* height:100%; */
+    background-color:hsl(30, 54%, 90%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:8%;
+    padding-bottom:8%;
+}
+
+img{
+    width:100%;
+    border-radius:10px;
+}
+main{
+    background-color: white;
+    width:40%;
+    padding:2.5%;
+    border-radius: 25px;
+}
+h1{
+    font-size:2.5rem;
+    font-family:'Outfit';
+}
+h2{
+    font-size:2rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 16px;
+}
+
+.two{
+    background-color:hsl(30, 54%, 90%);
+    height:10rem;
+    padding:1% 5%;
+    border-radius: 3%;
+}
+.two>ul{
+    padding-left:22px;
+}
+.two>ul>li{
+    margin-bottom: 0.5rem;
+    padding-left:3.5%;
+}
+.three>ul{
+    padding-left:22px;
+}
+.three>ul>li{
+    margin-bottom:2%;
+    padding-left:3.2%;
+}
+.four>ol{
+    padding-left:6%;
+}
+.four>ol>li{
+    margin-bottom:2%;
+    padding-left:3.2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution{
+    position: absolute;
+    bottom:0;
+    background-color:green;
+    left:45%;
+}
